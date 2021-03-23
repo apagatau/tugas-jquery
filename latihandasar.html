@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Latihan Dasar</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+    //menghubungkan file jquery dengan html
+    $(document).ready(function(){
+        //baris kode jQuery akan dijalankan apabila semua elemen sudah ditampilkan semua
+    $(".sembunyi").click(function(){$("#foto").hide("slow") })
+    $(".tampil").click(function(){$("#foto").show("slow") });
+    });
+    //memunculkan parameter untuk kecepatan reaksi button sembunyi dan tampil
+    </script>
+  </head>
+  <body>
+    <button class="sembunyi">sembunyikan</button>
+    <button class="tampil">tampilkan</button>
+    <p><img id="foto" src="yutub.png"></p>
+    <!-- menampilkan button pada halaman web -->
+  </body>
+</html>
